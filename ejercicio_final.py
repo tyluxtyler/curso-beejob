@@ -55,8 +55,8 @@ class GestorTareas:
         except IndexError:
             print("La tarea especificada no existe.")
 
-# A continuacion se configura la interface de usuario que aparecera en la consola para ejecutar el gestor de tareas
-if __name__ == "__main__":
+#esta funcion inicializa la aplicacion
+def main()
     gestor = GestorTareas()
 
     while True:
@@ -84,4 +84,8 @@ if __name__ == "__main__":
             print("¡Hasta luego!")
             break
         else:
-            print("Opción no válida. Por favor, seleccione una opción válida.")
+            print("Opción no válida. Por favor, seleccione una opción válida.")            
+
+# A continuacion se configura la interface de usuario que aparecera en la consola para ejecutar el gestor de tareas
+if __name__ == "__main__":
+    main() #llamada a funciona de inciacion de la aplicacion
